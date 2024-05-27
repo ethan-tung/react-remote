@@ -1,5 +1,4 @@
 let ranks = ['A', 'B', 'C'];
-
-for (let i = 0; i < ranks.length; i++) {
-    console.log(ranks[i]);
-}
+// 遍历字符数组，打印字符
+for(let rank of ranks)
+    console.log(rank);
